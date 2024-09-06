@@ -53,4 +53,3 @@ async def delete_item(item_id: int):
     db.delete(db_item)
     db.commit()
     return {"message": f"Item {item_id} deleted successfully"}
-#
