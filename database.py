@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, create_engine
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker
+from sqlalchemy.orm import sessionmaker, declarative_base
+
 
 # SQLALCHEMY_DATABASE_URL = "sqlite:///./test.db"
 SQLALCHEMY_DATABASE_URL = "postgresql://testuser:123456@localhost/test_router" # подключение postgresql
